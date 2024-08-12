@@ -1,0 +1,32 @@
+form{
+
+  width:100px;
+}
+input{
+  width: 100px;
+}
+
+textarea{
+  resize: vertical;
+  max-height:80px;
+}
+input,textarea{
+  outline: none;
+  border: 1px solid #ddd;
+}
+ input:focus,textarea:focus{
+  box-shadow: 0 0 4px rgba(255,0,0,0.5);
+  border: 1px solid rgb(255,0,0)
+}
+::placeholder{
+  color: rgb(255,0,0);
+  opacity: 1;
+}
+.gender{
+  display: flex;
+  align-content:space-around;
+  align-items: flex-start;
+  flex-flow: word-break;
+  
+  
+}
